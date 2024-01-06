@@ -1,0 +1,99 @@
+--[[
+    ByKhanh
+]]
+
+
+-- Instances
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local ImageLabel = Instance.new("ImageLabel")
+local ImageLabel_2 = Instance.new("ImageLabel")
+local Click = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local click2 = Instance.new("TextButton")
+
+-- Properties
+
+ScreenGui.Parent = game.CoreGui
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.new(1, 1, 1)
+Frame.BorderColor3 = Color3.new(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.119156741, 0, 0.127410471, 0)
+Frame.Size = UDim2.new(0, 678, 0, 408)
+Frame.Active = true
+Frame.Visible = true
+
+ImageLabel.Parent = ScreenGui
+ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel.BorderColor3 = Color3.new(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.119156756, 0, 0.127410471, 0)
+ImageLabel.Size = UDim2.new(0, 316, 0, 193)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=15890849112"
+
+ImageLabel_2.Parent = ScreenGui
+ImageLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+ImageLabel_2.BorderColor3 = Color3.new(0, 0, 0)
+ImageLabel_2.BorderSizePixel = 0
+ImageLabel_2.Position = UDim2.new(0.481209904, 0, 0.127410471, 0)
+ImageLabel_2.Size = UDim2.new(0, 362, 0, 334)
+ImageLabel_2.Image = "http://www.roblox.com/asset/?id=15890845613"
+
+Click.Name = "Click"
+Click.Parent = ScreenGui
+Click.BackgroundColor3 = Color3.new(0.537255, 1, 0.101961)
+Click.BorderColor3 = Color3.new(0, 0, 0)
+Click.BorderSizePixel = 0
+Click.Position = UDim2.new(0.1420715, 0, 0.460344553, 0)
+Click.Size = UDim2.new(0, 174, 0, 50)
+Click.Font = Enum.Font.SourceSansBold
+Click.Text = "Click here"
+Click.TextColor3 = Color3.new(0, 0, 0)
+Click.TextSize = 14
+Click.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/markxd07/Luxury-Free/main/Auto_Kaitun.lua"))()
+end)
+
+TextLabel.Parent = ScreenGui
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BorderColor3 = Color3.new(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.358615965, 0, 0.676380396, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 50)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Are You Gay?"
+TextLabel.TextColor3 = Color3.new(0, 0, 0)
+TextLabel.TextSize = 16
+
+TextButton.Parent = ScreenGui
+TextButton.BackgroundColor3 = Color3.new(1, 0.0823529, 0)
+TextButton.BorderColor3 = Color3.new(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.1420715, 0, 0.545798898, 0)
+TextButton.Size = UDim2.new(0, 174, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "script auto chest"
+TextButton.TextColor3 = Color3.new(0, 0, 0)
+TextButton.TextSize = 14
+TextButton.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/markxd07/Luxury-Free/main/Luxury-Hub-Free.lua"))()
+end)
+
+click2.Name = "click2"
+click2.Parent = ScreenGui
+click2.BackgroundColor3 = Color3.new(0.968628, 0.00392157, 1)
+click2.BorderColor3 = Color3.new(0, 0, 0)
+click2.BorderSizePixel = 0
+click2.Position = UDim2.new(0.1420715, 0, 0.631887078, 0)
+click2.Size = UDim2.new(0, 174, 0, 50)
+click2.Font = Enum.Font.SourceSans
+click2.Text = "script banana hub"
+click2.TextColor3 = Color3.new(0, 0, 0)
+click2.TextSize = 14
+click2.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/markxd07/Luxury-Free/main/Chest_Farm.lua"))()
+end)
