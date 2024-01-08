@@ -3826,7 +3826,7 @@ getgenv().HyperCahayas = function(p)
     end)
     
 
-local Library = Update:Window("Apple Hub","",Enum.KeyCode.RightControl);
+local Library = Update:Window("KhanhHUB","",Enum.KeyCode.RightControl);
 
 local NguyenTien = Library:AddTab("Information","15888556429")
 local Main = Library:AddTab("Main","15888556429")
