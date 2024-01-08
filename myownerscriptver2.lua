@@ -1905,15 +1905,12 @@ local Section = Tab:AddSection({
 
 local WeaponList = {"Melee","Sword","Fruit","Gun"}
 _G.SelectWeapon = "Melee"
-
 Tab:AddDropdown({
   Name = "Vu Khi",
   Default = "1",
   Options = {"Melees", "Sword"},
   Callback = function(Value)
       _G.SelectWeapon = value
-end)
-
 task.spawn(function()
 	while wait() do
 		pcall(function()
