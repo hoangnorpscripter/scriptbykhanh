@@ -1,18 +1,3 @@
-function intiAppleHub() 
-_G.antiscan = true
-getgenv().A = require(game:GetService("ReplicatedStorage").CombatFramework.RigLib).wrapAttackAnimationAsync
-getgenv().B = require(game.Players.LocalPlayer.PlayerScripts.CombatFramework.Particle).play
-_G.setfflag = true
-end
-spawn(function()
-    while wait() do
-        if _G.setfflag then
-            setfflag("AbuseReportScreenshot", "False")
-            setfflag("AbuseReportScreenshotPercentage", "0")
-        end
-    end
-end)
-
 if game.PlaceId == 2753915549 then
         World1 = true
     elseif game.PlaceId == 4442272183 then
