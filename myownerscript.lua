@@ -1085,7 +1085,7 @@ function Update:Window(text,logo,keybind)
         DropImage.Position = UDim2.new(0, 350, 0, 6)
         DropImage.Rotation = 180.000
         DropImage.Size = UDim2.new(0, 20, 0, 20)
-        DropImage.Image = "rbxassetid://6031090990"
+        DropImage.Image = "rbxassetid://15888556429"
 
         for i,v in next,option do
             local Item = Instance.new("TextButton")
@@ -1287,7 +1287,7 @@ function Update:Window(text,logo,keybind)
         ImageLabel.BorderSizePixel = 0
         ImageLabel.Position = UDim2.new(0, 7.5, 0, 7.5)
         ImageLabel.Size = UDim2.new(0, 30, 0, 30)
-        ImageLabel.Image = "rbxassetid://15435099885"
+        ImageLabel.Image = "rbxassetid://15888556429"
             
         Title.Parent = SliderFrame_2
         Title.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
