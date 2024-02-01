@@ -2287,11 +2287,10 @@ Tab1:AddDropdown({
 	Default = "1",
 	Options = {"Melees", "Sworld", "Blox Fruit"},
 	Callback = function(Value)
-    })
         DropdownSelectWeapon:SetValue('Melee')
         DropdownSelectWeapon:OnChanged(function(Value)
             ChooseWeapon = Value
-        end)
+        end})
         task.spawn(function()
             while wait() do
                 pcall(function()
