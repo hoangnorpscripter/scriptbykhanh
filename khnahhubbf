@@ -2290,7 +2290,7 @@ Tab1:AddDropdown({
         DropdownSelectWeapon:SetValue('Melee')
         DropdownSelectWeapon:OnChanged(function(Value)
             ChooseWeapon = Value
-        end})
+        end)
         task.spawn(function()
             while wait() do
                 pcall(function()
@@ -2330,5 +2330,4 @@ Tab1:AddDropdown({
                 end)
             end
         end)
-    
-    
+    })
