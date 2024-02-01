@@ -2281,3 +2281,55 @@ function BTP(p)
     
 -----tab
 Tab1:AddParagraph("Farming","AutoFarm")
+
+Tab1:AddDropdown({
+	Name = "Select Weapon",
+	Default = "1",
+	Options = {"Melees", "Sworld", "Blox Fruit"},
+	Callback = function(Value)
+    })
+        DropdownSelectWeapon:SetValue('Melee')
+        DropdownSelectWeapon:OnChanged(function(Value)
+            ChooseWeapon = Value
+        end)
+        task.spawn(function()
+            while wait() do
+                pcall(function()
+                    if ChooseWeapon == "Melee" then
+                        for i ,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+                            if v.ToolTip == "Melee" then
+                                if game.Players.LocalPlayer.Backpack:FindFirstChild(tostring(v.Name)) then
+                                    SelectWeapon = v.Name
+                                end
+                            end
+                        end
+                    elseif ChooseWeapon == "Sword" then
+                        for i ,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+                            if v.ToolTip == "Sword" then
+                                if game.Players.LocalPlayer.Backpack:FindFirstChild(tostring(v.Name)) then
+                                    SelectWeapon = v.Name
+                                end
+                            end
+                        end
+                    elseif ChooseWeapon == " Blox Fruit" then
+                        for i ,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+                            if v.ToolTip == "Blox Fruit" then
+                                if game.Players.LocalPlayer.Backpack:FindFirstChild(tostring(v.Name)) then
+                                    SelectWeapon = v.Name
+                                end
+                            end
+                        end
+                    else
+                        for i ,v in pairs(game.Players.LocalPlayer.Backpack:GetChildren()) do
+                            if v.ToolTip == "Melee" then
+                                if game.Players.LocalPlayer.Backpack:FindFirstChild(tostring(v.Name)) then
+                                    SelectWeapon = v.Name
+                                end
+                            end
+                        end
+                    end
+                end)
+            end
+        end)
+    
+    
