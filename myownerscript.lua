@@ -3841,8 +3841,8 @@ local D = Library:AddTab("Devil Fruit","15888556429")
 local Misc = Library:AddTab("Misc","15888556429")
 --- ThÃ´ng Tin
 NguyenTien:AddSeperator("Information Developer")
-NguyenTien:AddLabel("Owner: PKhnah (skidder)")
-NguyenTien:AddLabel("I need GirlFriends")
+NguyenTien:AddLabel("Owner: chiyeuminhthuw")
+NguyenTien:AddLabel("YeuThuwNhieuLam")
 NguyenTien:AddLabel("Ui: Thunderz Hub")
 NguyenTien:AddLabel("Thank you for use my owner script")
 
