@@ -1450,7 +1450,7 @@ game:GetService("Players").LocalPlayer.Idled:connect(function()
 end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nghiavndeptraivcc/Orion-nhu-cut/main/Orion.Source')))()
-local Window = OrionLib:MakeWindow({Name = "Khnah Hub", HidePremium = false,IntroText = "Chiyeuminhthuw", SaveConfig = true, ConfigFolder = "KhnahHHub"})
+local Window = OrionLib:MakeWindow({Name = "Night Hub", HidePremium = false,IntroText = "Night Library", SaveConfig = true, ConfigFolder = "Night Hub"})
 
 local I = Window:MakeTab({
 	Name = "Info",
@@ -1522,14 +1522,14 @@ local Section = I:AddSection({
     Name = "Info Owner"
 })
 
-I:AddLabel("owner:chiyeuminhthuw")
-I:AddLabel("BirthDay : 05/07/2011")
-I:AddLabel("GirlFriend : AnhThuwxinkgai")
-I:AddLabel("My Discord : deoco")
-I:AddLabel("leuleu may thnag deo co ny")
+I:AddLabel("Owner Name : Lương Minh Nghĩa")
+I:AddLabel("BirthDay : 12/8/2011")
+I:AddLabel("Brothers : Hirimii, T...")
+I:AddLabel("My Discord : https://discord.gg/R4xC3t2Xm8")
+I:AddLabel("I From : VietNam")
 
 local Section = I:AddSection({
-    Name = "skid and leak by khnah =))"
+    Name = "Update My Hub"
 })
 
 I:AddLabel("Update Bring Mob Large")
