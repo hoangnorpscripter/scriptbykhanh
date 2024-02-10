@@ -93,6 +93,11 @@ TextButton_2.Font = Enum.Font.SourceSans
 TextButton_2.Text = "Click Here IF YOU GAYY     (Hub1)"
 TextButton_2.TextColor3 = Color3.new(0, 0, 0)
 TextButton_2.TextSize = 14
+TextButton_2.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/khnahcutevippro/ScriptKhnahHandsome/main/chiyeuminhthuw2.lua"))()
+	Frame.Visible = false
+	TextButton_4.Visible = false
+end)
 
 TextButton_3.Parent = Frame
 TextButton_3.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -104,6 +109,11 @@ TextButton_3.Font = Enum.Font.SourceSans
 TextButton_3.Text = "Bấm Vào Đây NẾU M BỊ BÊ ĐÊ (Hub2)"
 TextButton_3.TextColor3 = Color3.new(0, 0, 0)
 TextButton_3.TextSize = 14
+TextButton_3.MouseButton1Down:Connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/khnahcutevippro/ScriptKhnahHandsome/main/chiyeuminhthuw.lua"))()
+	Frame.Visible = false
+	TextButton_4.Visible = false
+end)
 
 ImageLabel_2.Parent = Frame
 ImageLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
