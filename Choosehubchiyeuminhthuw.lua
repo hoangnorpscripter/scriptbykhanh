@@ -1,9 +1,5 @@
 --[[
-
-		Gui2Lua™
-		10zOfficial
-		Version 1.0.0
-
+         Trên thế giới này tao chỉ yêu mình Thuw >~<              Ui:v1(10/2/2024)
 ]]
 
 
