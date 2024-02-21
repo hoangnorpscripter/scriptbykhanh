@@ -1,5 +1,5 @@
-_G.teams = "Marines"
-if _G.teams = "Marines" then
+_G.teams = true
+if _G.teams = true then
     local AutoJoinTeam = "Marines"
 
     local function setPlayerTeam(teamName)
