@@ -1,4 +1,4 @@
-local _G.teams = "Marines"
+_G.teams = "Marines"
 if _G.teams = "Marines" then
     local AutoJoinTeam = "Marines"
 
