@@ -1,6 +1,3 @@
-
----Rẻ rách -skid Night-
-
 if game.PlaceId == 2753915549 then
     World1 = true
 elseif game.PlaceId == 4442272183 then
@@ -2373,12 +2370,12 @@ local CamShake = require(game.ReplicatedStorage.Util.CameraShaker)
 CamShake:Stop()
 
     HttpService = game:GetService("HttpService")
-    local i = "ZyHub"
+    local i = "thuhien v2 Hub"
     local j = "-BloxFruit.json"
     local l = game.Players.LocalPlayer.Name .. j
     if Adel then
         HttpService = game:GetService("HttpService")
-        local i = "ZyHub"
+        local i = "thuhien v2 Hub "
         local j = "-BloxFruit.json"
         local l = game.Players.LocalPlayer.Name .. j
     end
@@ -2533,30 +2530,30 @@ spawn(function()
         task.wait()
     until game.Players.LocalPlayer and game.Players.LocalPlayer.Team ~= nil 
     wait(1.5)
-    require(game.ReplicatedStorage.Notification).new("<Color=Red>ZyHub chào ae<Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Red>thuhien b2 Hub chào mn<Color=/>"):Display()
     wait(.5)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hãy sử dụng Fluxus để có trải nghiệm tốt!!<Color=/>"):Display()
     wait(.24)
     require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Tham gia discord để cập nhật thông tin mới nhất nhé<Color=/>"):Display()
     wait(.29)
-    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>Hub make by Zyy <Color=/>"):Display()
+    require(game.ReplicatedStorage.Notification).new("<Color=Yellow>discord:https://discord.com/invite/4BqdxQjE3g<Color=/>"):Display()
     wait(.36)
 end)
 
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "ZyHub", HidePremium = false, IntroText = "ZyHub⚜️", SaveConfig = true, ConfigFolder = "NightHub"})
+local Window = OrionLib:MakeWindow({Name = "thuhien v2 hub", HidePremium = false, IntroText = "thuhien v2 hub⚜️", SaveConfig = true, ConfigFolder = "NightHub"})
 
 
 
 OrionLib:MakeNotification({
-    Name = "ZyHub",
+    Name = "thuhien v2 hub",
     Content = "Please Wait loading script...,Do not enable any function",
     Image = "rbxassetid://8192162908",
     Time = 5
 })
 wait(3)
 OrionLib:MakeNotification({
-    Name = "ZyHub",
+    Name = "thuhien v2 hub",
     Content = "đợi hub load config rồi mới sài nha",
     Image = "rbxassetid://8192162908",
     Time = 10
@@ -2577,7 +2574,7 @@ local M = Window:MakeTab({
 })
 
 local ST = Window:MakeTab({
-    Name = "🛠️ Setting",
+    Name = "⚙️CÀI ĐẶT",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
@@ -2589,7 +2586,7 @@ local IQ = Window:MakeTab({
 })
 
 local S = Window:MakeTab({
-    Name = "CHỈ SỐ",
+    Name = "📈 CHỈ SỐ",
     Icon = "rbxassetid://8192162908",
     PremiumOnly = false
 })
@@ -2654,16 +2651,16 @@ local Section = W:AddSection({
 })
 
 
-W:AddLabel("Script By Zy")
+W:AddLabel("thuhien v2 hub")
 
 local Section = W:AddSection({
     Name = "Update"
 })
 
 
-W:AddLabel("[+] Load Script Faster!")
-W:AddLabel("[+] Zy hub and FTS X HUB IS FRIEND")
-W:AddLabel("[✓]Vô discord ở đầu mục khác nha")
+W:AddLabel("PHÁT TRIỂN BỞI")
+W:AddLabel("thuhien v2 hub SCRIPT")
+W:AddLabel("Discordthuhien v2 hub")
 local Section = W:AddSection({
     Name = "Status"
 })
@@ -6398,7 +6395,7 @@ SH:AddButton({
 C:AddButton({
     Name = "Link mời Discord",
     Callback = function(value)
-        setclipboard("https://discord.com/invite/NeUjYUrTat")
+        setclipboard("https://discord.com/invite/4BqdxQjE3g")
     end
 })
 
@@ -8389,13 +8386,13 @@ pcall(function()
         if _G.AutoEliteHunter then
             if game:GetService("Players").LocalPlayer.PlayerGui.Main.Quest.Visible == true then
                 OrionLib:MakeNotification({
-                    Name = "ZyHub(Noitification)",
+                    Name = "thuhien v2 hub (Noitification)",
                     Content = "[EN] : Please cancel the farrm level quest (if any)",
                     Image = "rbxassetid://8192162908",
                     Time = 9
                 })
                 OrionLib:MakeNotification({
-                    Name = "ZyHub(Noitification)",
+                    Name = "thuhien v2 hub (Noitification)",
                     Content = "[VN] : Làm ơn hủy nhiệm vụ farrm level(nếu có)",
                     Image = "rbxassetid://8192162908",
                     Time = 9
@@ -8564,7 +8561,7 @@ spawn(function()
             if _G.AutoObservation then
                 if game:GetService("Players").LocalPlayer.VisionRadius.Value >= 3000 then
                     OrionLib:MakeNotification({
-                        Name = "ZyHub BOT",
+                        Name = "thuhien v2 hub  BOT",
                         Content = "!!You Are Max Point!!",
                         Image = "rbxassetid://14919714384",
                         Time = 5
@@ -8713,7 +8710,7 @@ spawn(function()
         if Mybeli <= 2500000 or MyFragment <= 5000 then
             wait(2.0)
             OrionLib:MakeNotification({
-                Name = "ZyHub",
+                Name = "thuhien v2 hub",
                 Content = "You not have beli or fragment!",
                 Image = "rbxassetid://8192162908",
                 Time = 5
@@ -8874,7 +8871,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "ZyHub BOT",
+                            Name = "thuhien v2 hub BOT",
                             Content = "Not Have Superhuman",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8887,7 +8884,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "ZyHub BOT",
+                            Name = "thuhien v2 hub BOT",
                             Content = "Not Have Death Step",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8900,7 +8897,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "ZyHub BOT",
+                            Name = "thuhien v2 hub BOT",
                             Content = "Not Have SharkMan Karate",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8913,7 +8910,7 @@ spawn(function()
                         end
                     else
                         gOrionLib:MakeNotification({
-                            Name = "ZyHub BOT",
+                            Name = "thuhien v2 hub BOT",
                             Content = "Not Have Electric Claw",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -8924,7 +8921,7 @@ spawn(function()
                         if game.Players.LocalPlayer.Backpack:FindFirstChild("Dragon Talon") and game.Players.LocalPlayer.Backpack:FindFirstChild("Dragon Talon").Level.Value >= 400 or game.Players.LocalPlayer.Character:FindFirstChild("Dragon Talon") and game.Players.LocalPlayer.Character:FindFirstChild("Dragon Talon").Level.Value >= 400 then
                             if string.find(game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("BuyGodhuman",true), "Bring") then
                                 OrionLib:MakeNotification({
-                                    Name = "ZyHub BOT",
+                                    Name = "thuhien v2 hub BOT",
                                     Content = "Not Have Enough Material",
                                     Image = "rbxassetid://14919714384",
                                     Time = 5
@@ -8936,7 +8933,7 @@ spawn(function()
                         end
                     else
                         OrionLib:MakeNotification({
-                            Name = "ZyHub BOT",
+                            Name = "thuhien v2 hub BOT",
                             Content = "You Not Have Dragon Talon! ",
                             Image = "rbxassetid://14919714384",
                             Time = 5
@@ -11335,7 +11332,7 @@ spawn(function()
             if game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149052" or game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149431" then
                 wait(2.0)
                 OrionLib:MakeNotification({
-                    Name = "ZyHub",
+                    Name = "thuhien v2 hub",
                     Content = "Turn Off Hop Find Moon Please",
                     Image = "rbxassetid://8192162908",
                     Time = 5
@@ -11343,7 +11340,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709143733" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "ZyHub",
+                    Name = "thuhien v2 hub",
                     Content = "Hop Server",
                     Image = "rbxassetid://8192162908",
                     Time = 5
@@ -11351,7 +11348,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709150401" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "ZyHub",
+                    Name = "thuhien v2 hub",
                     Content = "Hop Server",
                     Image = "rbxassetid://8192162908",
                     Time = 5
@@ -11359,7 +11356,7 @@ spawn(function()
             elseif game:GetService("Lighting").Sky.MoonTextureId=="http://www.roblox.com/asset/?id=9709149680" then
                 Hop()
                 OrionLib:MakeNotification({
-                    Name = "ZyHub",
+                    Name = "thuhien v2 hub",
                     Content = "Hop Server",
                     Image = "rbxassetid://8192162908",
                     Time = 5
@@ -11372,7 +11369,7 @@ spawn(function()
     end)
 
 OrionLib:MakeNotification({
-        Name = "ZyHub",
+        Name = "thuhien v2 hub",
         Content = "Loading script complete!, You can now enable the function!",
         Image = "rbxassetid://8192162908",
         Time = 5
@@ -11405,8 +11402,8 @@ end)
 OrionLib:Init()
 
 OrionLib:MakeNotification({
-    Name = "ZyHub",
+    Name = "thuhien v2 Hub",
     Content = "Loading Config Complete!!",
     Image = "rbxassetid://8192162908",
-    Time = 5
+    Time = 1
 })
