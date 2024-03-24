@@ -1,6 +1,6 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 
-local cac = Window:MakeTab({
+local Main = Window:MakeTab({
 	Name = "Main Farm",
 	Icon = "rbxassetid://",
 	PremiumOnly = false
@@ -659,8 +659,8 @@ function Click()
     game:GetService('VirtualUser'):Button1Down(Vector2.new(851, 158))
 end
 
-cac:AddLabel("Trang chủ cày")
-cac:AddToggle({
+Main:AddLabel("Trang chủ cày")
+Main:AddToggle({
     Name = "Bắt đầu cày chế độ đã chọn",
     Default = _G.Auto_Farm_Level,
     Callback = function(value)
