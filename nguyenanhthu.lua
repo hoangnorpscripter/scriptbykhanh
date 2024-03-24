@@ -9,10 +9,19 @@ repeat wait() until game:GetService("Players").LocalPlayer.Character:FindFirstCh
 if not game:IsLoaded() then repeat game.Loaded:Wait() until game:IsLoaded() end
 -- loadgame
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+local Window = OrionLib:MakeWindow({
+    Name = "NguyenAnhThu",
+    IntroText = "chiyeuminhthu",
+    HidePremium = false,
+    SaveConfig = true,
+    ConfigFolder = "OrionTest"
+})
+
 local Main = Window:MakeTab({
-	Name = "Main Farm",
-	Icon = "",
-	PremiumOnly = false
+    Name = "Trang chủ",
+    Icon = "rbxassetid://11446825283",
+    PremiumOnly = false
 })
 
 -- check lvl
