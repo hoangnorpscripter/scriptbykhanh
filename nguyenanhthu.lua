@@ -2,7 +2,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shl
 
 local Main = Window:MakeTab({
 	Name = "Main Farm",
-	Icon = "rbxassetid://",
+	Icon = "",
 	PremiumOnly = false
 })
 
