@@ -88,6 +88,7 @@ TextButton.Font = Enum.Font.SourceSansBold
 TextButton.Text = "Cat | Quy"
 TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 TextButton.TextSize = 15.000
+TextButton.Draggable = true
 TextButton.MouseButton1Down:Connect(function()
 	game:GetService("VirtualInputManager"):SendKeyEvent(true,Enum.KeyCode.End,false,game)
 end)
