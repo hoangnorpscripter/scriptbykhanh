@@ -1,20 +1,3 @@
-getgenv().Config = {
-    ["Name"] = "Trum Skid vi en",
-    ["Credit"] = "By khanhdz",
-    -- Webhook new exec
-    ["NewExec"] = false,
-    ["Url"] = "enter your url webhook"
-}
-
-
-local nAmE = getgenv().Config["Name"]
-local subtitle = getgenv().Config["Credit"]
-local webhookmode = getgenv().Config["NewExec"]
-local urlwebhook = getgenv().Config["Url"]
-
-a = urlwebhook
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hoangnorpscripter/nguyenanhthu/main/newexec.lua"))()
-
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
 local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
